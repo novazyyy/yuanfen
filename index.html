@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>姻缘值测试</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <img src="couple.svg" alt="couple" class="couple-image">
+    </div>
+    <div class="container">
+        <h1>💕 姻缘值测试 💕</h1>
+        <div class="input-group">
+            <input type="text" id="name1" placeholder="请输入第一个人的姓名">
+            <input type="text" id="name2" placeholder="请输入第二个人的姓名">
+            <button onclick="analyzeCompatibility()">开始分析</button>
+        </div>
+        <div id="loading" style="display: none;" class="loading">
+            <div class="spinner"></div>
+            <p>正在分析姻缘...</p>
+        </div>
+        <div class="result" id="result">
+            <div class="score" id="score"></div>
+            <div class="analysis" id="analysis"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
